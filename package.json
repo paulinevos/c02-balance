@@ -4,6 +4,7 @@
   "description": "Applicatie voor het bijhouden van de balans van je CO2-uitstoot.",
   "main": "index.js",
   "scripts": {
+    "start": "node server/index.js",
     "start-dev": "nodemon server/index.js",
     "build": "cd client && npm install && npm run build",
     "test": "echo \"no test specified\" && exit 0"
@@ -12,5 +13,9 @@
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "sqlite": "^4.0.23"
   }
 }
