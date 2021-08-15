@@ -4,8 +4,13 @@
   "description": "Applicatie voor het bijhouden van de balans van je CO2-uitstoot.",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "start-dev": "nodemon server/index.js",
+    "build": "cd client && npm install && npm run build",
+    "test": "echo \"no test specified\" && exit 0"
   },
   "author": "Pauline Vos",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
 }
