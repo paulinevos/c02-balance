@@ -1,0 +1,16 @@
+{
+  "dev": {
+    "driver": "sqlite3",
+    "filename": {"ENV":  "DB_PATH"}
+  },
+  "test": {
+    "driver": "sqlite3",
+    "filename": ":memory:"
+  },
+  "prod": {
+    "driver": "mysql",
+    "user": {"ENV": "DB_USER"},
+    "password": {"ENV": "DB_PASSWORD"},
+    "multipleStatements": true
+  }
+}
