@@ -1,0 +1,11 @@
+{
+  "name": "co2-saldo",
+  "version": "1.0.0",
+  "description": "Applicatie voor het bijhouden van de balans van je CO2-uitstoot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Pauline Vos",
+  "license": "ISC"
+}
